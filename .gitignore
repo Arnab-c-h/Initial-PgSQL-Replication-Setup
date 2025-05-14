@@ -1,0 +1,33 @@
+# Vagrant
+.vagrant/
+Vagrant.private
+
+# Docker (sometimes local build files or cache, though usually handled by Docker itself)
+# You might not need much here if your Dockerfiles are clean.
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+*.swp
+*~
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Log files that might be generated locally (if any)
+*.log
+
+# Any sensitive information (though ideally, don't store it in the project)
+# sensitive.txt
+# *.key
+# *.pem (unless they are public keys meant to be shared)
+
+# VirtualBox VM files (if they somehow end up in the project dir - they shouldn't)
+*.vbox
+*.vbox-prev
+*.vdi
+*.vmdk
+*.pvm

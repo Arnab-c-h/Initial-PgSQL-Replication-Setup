@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/pg_config_slave1":{"guestpath":"/home/vagrant/pg_config_slave1","hostpath":"C:/pg_replication_lab/pg_config_slave1","disabled":false,"__vagrantfile":true}}}
